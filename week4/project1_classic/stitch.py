@@ -59,8 +59,8 @@ def stitcher(imgA, imgB, H):
 def load_image(pathA, pathB):
     imgA = cv2.imread(pathA)
     imgB = cv2.imread(pathB)
-    imgA = imutils.resize(imgA, 600)
-    imgB = imutils.resize(imgB, 600)
+    # imgA = imutils.resize(imgA, 600)
+    # imgB = imutils.resize(imgB, 600)
     return imgA, imgB
 
 # 载入图片
